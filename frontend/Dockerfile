@@ -8,7 +8,10 @@ WORKDIR /app
 COPY package*.json ./
 
 # Install dependencies with the --legacy-peer-deps flag to handle dependency conflicts
-RUN npm install --legacy-peer-deps
+RUN npm install
+
+# Set the Node.js memory limit
+ENV NODE_OPTIONS=--max_old_space_size=2048
 
 # Copy the rest of the application files to the working directory
 COPY . .
