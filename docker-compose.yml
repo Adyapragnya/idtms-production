@@ -20,6 +20,8 @@ services:
       - backend
     networks:
       - mern-network
+    environment:
+      - NODE_OPTIONS=--max_old_space_size=4096
 
   mongodb:
     image: mongo
