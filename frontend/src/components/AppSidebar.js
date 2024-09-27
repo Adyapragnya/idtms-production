@@ -40,7 +40,7 @@ const AppSidebar = () => {
         <CSidebarBrand to="/">
           {/* <CIcon customClassName="sidebar-brand-full" icon={logo} height={32} /> */}
           {/* <CIcon customClassName="sidebar-brand-narrow" icon={sygnet} height={32} /> */}
-          <img src='src\assets\logo\sibebarfavicon.png' alt='hyla logo' height={"60px"} width={"175px"} />
+          <img src='/sibebarfavicon.png' alt='hyla logo' height={"60px"} width={"175px"} />
         </CSidebarBrand>
         <CCloseButton
           className="d-lg-none"
