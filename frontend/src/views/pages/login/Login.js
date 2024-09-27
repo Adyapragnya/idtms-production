@@ -57,7 +57,7 @@ const Login = () => {
               <CCard className="text-white bg-primary py-5" style={{ width: '100%' }}>
                 <CCardBody className="text-center">
                   <div>
-                    <img src='src/assets/logo/IDTMS.png' alt='logo' height={"200px"} width={"200px"} />
+                    <img src='/IDTMS.png' alt='logo' height={"200px"} width={"200px"} />
                   </div>
                 </CCardBody>
               </CCard>
