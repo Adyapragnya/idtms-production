@@ -84,7 +84,7 @@ const AppHeader = () => {
           </li>
            <CDropdown variant="nav-item" placement="bottom-end">
             <CDropdownToggle caret={false}>
-              {colorMode === 'dark' ? (
+              {colorMode === 'light' ? (
                 <CIcon icon={cilMoon} size="lg" />
               ) : colorMode === 'auto' ? (
                 <CIcon icon={cilContrast} size="lg" />
